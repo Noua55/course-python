@@ -1,0 +1,34 @@
+num1=float(input("Enter the first number :"))
+oper=input("Enter the operation (+,-,*,/,%) :")
+num2=float(input("Enter the second number :"))
+
+if oper== "+":
+    print(num1,"+",num2,"=",num1+num2)
+    
+elif oper=="-":
+        print(num1,"-",num2,"=",num1-num2)
+
+elif oper=="*":
+        print(num1,"*",num2,"=",num1*num2)
+       
+       
+elif oper=="/":
+    if num2!=0:
+        print(num1,"/",num2,"=",num1/num2)
+        
+    else:
+        print("Can't Division by ZERO")
+         
+            
+else:
+    print(num1,"%",num2,"=",num1%num2)
+      
+                
+                
+            
+        
+        
+            
+        
+        
+        
